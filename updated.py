@@ -354,7 +354,8 @@ and a story waiting patiently to unfold.
             **That was the day my life got infinitely better.** 💫
         """)
         st.image("https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?w=800", 
-                 caption="The beginning of forever ❤️", use_container_width=True)
+                 caption="The beginning of forever ❤️", use_container_width=True,
+                 format="jpg")
         
     # Memory 1
     with st.expander("✨ Our First Hug", expanded=False):
@@ -419,7 +420,7 @@ But it was ours.
 And it will always be one of the most special memories of my life. 🤍✨  
         """)
         st.image("https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?w=800", 
-                 caption="An Unforgatable Moment ❤️", use_container_width=True)    
+                 caption="An Unforgatable Moment ❤️", use_container_width=True, format="jpg")    
     
     # Memory 2
     with st.expander("🌙 Our First Deep Conversation", expanded=False):
@@ -436,7 +437,7 @@ And it will always be one of the most special memories of my life. 🤍✨
             the depth of your soul. **You became my favorite conversation.** 🌟
         """)
         st.image("https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800", 
-                 caption="Talking for hours, falling deeper 💕", use_container_width=True)
+                 caption="Talking for hours, falling deeper 💕", use_container_width=True, format="jpg")
     
     # Memory 3
     with st.expander("💕 When I Knew You Were The One", expanded=False):
@@ -453,7 +454,7 @@ And it will always be one of the most special memories of my life. 🤍✨
             adventure with you. **You weren't just someone I loved—you were my person.** 💖
         """)
         st.image("https://images.unsplash.com/photo-1522673607710-24bc2c299d9d?w=800", 
-                 caption="My person, my forever 💫", use_container_width=True)
+                 caption="My person, my forever 💫", use_container_width=True, format="jpg")
     
     # Memory 4
     with st.expander("🎉 Our Favorite Adventure Together", expanded=False):
@@ -511,7 +512,7 @@ Because at the end of the day,
 you are my favorite destination. 🤍✨
         """)
         st.image("https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800", 
-                 caption="Adventures are better with you 🗺️", use_container_width=True)
+                 caption="Adventures are better with you 🗺️", use_container_width=True, format="jpg")
 
 # ============================================================================
 # PAGE 3: LOVE QUIZ
@@ -1010,3 +1011,4 @@ for char in letter:
     time.sleep(0.03)
 
         
+
