@@ -1,12 +1,16 @@
-"""
-Valentine's Day Surprise Website
-A romantic Streamlit app for your special someone
-"""
+
 
 import streamlit as st
 import random
 from datetime import datetime
 import time
+
+st.set_page_config(
+    page_title="Happy Valentine's Day ❤️",
+    page_icon="💕",
+    layout="centered",
+    initial_sidebar_state="expanded"
+)
 
 
 
@@ -131,16 +135,6 @@ if st.button("Click for a Surprise 💖"):
 # ===================== VALENTINE ADD-ON END =====================
 
 
-# ============================================================================
-# PAGE CONFIGURATION
-# ============================================================================
-
-st.set_page_config(
-    page_title="Happy Valentine's Day ❤️",
-    page_icon="💕",
-    layout="centered",
-    initial_sidebar_state="expanded"
-)
 
 
 # ============================================================================
@@ -1014,4 +1008,5 @@ for char in letter:
     typed += char
     placeholder.markdown(f"<p style='font-size:18px;'>{typed}</p>", unsafe_allow_html=True)
     time.sleep(0.03)
+
         
